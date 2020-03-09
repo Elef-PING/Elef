@@ -15,13 +15,15 @@
 
 ## OMT Diagram
 
+<img src="images/OMT_Diagram.png" width=1000>
+
 ## Roadmap
 
 
 
 # English version
 
-*This project is realized as a student project only, through the PING project (Projet d'ingénieur généraliste numérique / Numeric generalist engineering project) in the 3rd year of engineering studies at ESILV"
+*This project is realized as a student project only, through the PING project (Projet d'ingénieur généraliste numérique / Numeric generalist engineering project) in the 3rd year of engineering studies at ESILV"*
 
 ## Project description
 
@@ -30,5 +32,7 @@
 ## Solution brought
 
 ## OMT Diagram
+
+<img src="images/OMT_Diagram.png" width=1000>
 
 ## Roadmap
