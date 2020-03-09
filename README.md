@@ -6,21 +6,15 @@
 
 *Ce projet est réalisé dans le cadre du Projet PING (Projet d'ingénieur numérique généraliste) de 3ème année à l'ESILV*
 
-**
-
 ## Description du projet
 
 	Elef est un assistant connecté visant à aider les patients atteints de la maladie d'Alzheimer. Pour cela, nous allons d'abord concevoir une enceinte doté d'un assistant vocal. Cet assistant restera limité et l'entrée utilisateur ne se fera que par écrit au travers d'une console dans un premier temps. Notre but est, à termes, de doter cet assistant d'une intelligence artificielle capable de reconnaitre la voix. L'enceinte communiquera cependant par oral avec son utilisateur.
 
 	Cet assistant embarquera des fonctions basiques, que l'on attend d'un assistant vocal, comme la gestion d'un calendrier ou des rappels. Mais comme nous nous adressons à des personnes atteintes de la maladie d'Alzheimer, nous allons aussi rappeler certains gestes du quotidien au patient comme le fait de ne pas mettre de métaux au micro-ondes par exemple ou rappeler une date d'anniversaire.
 
-**
-
 ## Cible du projet
 
 	La cible de ce projet est les personnes atteintes de la maladie d'Alzheimer, c'est-à-dire une tranche assez agée de la population, n'étant pas forcément à l'aise avec les nouvelles technologies.
-
-**
 
 ## Solution apportée
 
@@ -30,8 +24,6 @@
 	Il faut cependant garder à l'esprit que nous nous adressons à une partie agée de la population n'étant pas forcément à l'aise avec la technologie. Il faudra donc penser à ne pas avoir une approche trop brute avec le patient.Pour cela, nous allons utiliser une voix féminine plutôt douce et nous allons surtout rappeler le fait que c'est une enceinte connectée avant chaque communication.
 
 	Pour le côté technique, nous allons utiliser une Raspberry PI 3 (4) ainsi que des haut-parleurs. L'alimentation sera gérée sur secteur et l'enveloppe esthétique de l'enceinte sera conçue par nos soins à l'aide de logiciels de modélisation et d'une imprimante 3D.
-
-**
 
 ## OMT Diagram
 
@@ -66,8 +58,6 @@
 **Output**
 
 **OutputToVoice**
-
-**
 
 ## Roadmap
 
