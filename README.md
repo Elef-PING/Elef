@@ -2,7 +2,25 @@
 
 > Authors: Adrien JACQUIER ([@adrien-jk](https://github.com/adrien-jk)), Clément LEMASSON ([@Orelfeu](https://github.com/Orelfeu)), Julien MARTIN-PRIN ([@Flexiboy](https://github.com/Flexiboy)), Léo LAMBERT ([@LeoDPlouc](https://github.com/LeoDPlouc)), Pierre-Victor LANDEZ ([@Tulbius](https://github.com/Tulbius))
 
-# French version (English version below)
+## Sommaire / Summary
+
+[Version Française](https://github.com/Flexiboy/Elef#version-française)
+* [Description du projet](https://github.com/Flexiboy/Elef#description-du-projet)
+* [Cible du projet](https://github.com/Flexiboy/Elef#cible-du-projet)
+* [Solution apportée](https://github.com/Flexiboy/Elef#solution-apportée)
+* [Diagramme UML / OMT Diagram](https://github.com/Flexiboy/Elef#diagramme-uml-/-omt-diagram)
+* [Description des fonctions](https://github.com/Flexiboy/Elef#description-des-fonctions)
+* [Roadmap](https://github.com/Flexiboy/Elef#roadmap)
+
+[English Version](https://github.com/Flexiboy/Elef#english-version)
+* [Project description](https://github.com/Flexiboy/Elef#project-description)
+* [Project's target](https://github.com/Flexiboy/Elef#project's-target)
+* [Solution brought](https://github.com/Flexiboy/Elef#solution-brought)
+* [OMT Diagram](https://github.com/Flexiboy/Elef#omt-diagram-1)
+* [Function description](https://github.com/Flexiboy/Elef#function-description)
+* [Roadmap](https://github.com/Flexiboy/Elef#roadmap-1)
+
+## Version Française
 
 *Ce projet est réalisé dans le cadre du Projet PING (Projet d'ingénieur numérique généraliste) de 3ème année à l'ESILV*
 
@@ -26,7 +44,7 @@ Il faut cependant garder à l'esprit que nous nous adressons à une partie agée
 
 Pour le côté technique, nous allons utiliser une Raspberry PI 3 (4) ainsi que des haut-parleurs. L'alimentation sera gérée sur secteur et l'enveloppe esthétique de l'enceinte sera conçue par nos soins à l'aide de logiciels de modélisation et d'une imprimante 3D.
 
-## OMT Diagram
+## Diagramme UML / OMT Diagram
 
 <img src="images/OMT_Diagram.png" width=1000>
 
@@ -74,18 +92,20 @@ Cette méthode va convertir la sortie texte en sortie vocale, ce qui va permettr
 
 ## Roadmap
 
-# English version
+## English version
 
 *This project is realized as a student project only, through the PING project (Projet d'ingénieur généraliste numérique / Numeric generalist engineering project) in the 3rd year of engineering studies at ESILV*
 
 ## Project description
 
-## Target of the project
+## Project's target
 
 ## Solution brought
 
 ## OMT Diagram
 
 <img src="images/OMT_Diagram.png" width=1000>
+
+## Function description
 
 ## Roadmap
