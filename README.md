@@ -46,19 +46,31 @@ C'est la classe qui parse notre entrée utilisateur. Elle prend toute l'entrée 
 
 **KeywordRecognition**
 
+Cette classe va nous permettre de reconnaitre les mots clés présents dans notre entrée utilisateur. Elle va prendre en entrée `vector<InputBase *> inp;` notre entrée parsée. Cette classe comporte une seule méthode `int execute();` qui retourne 0 si tout s'est bien passé.
+
 **AppKeyword**
 
-* **Calendar**:
-* **Reminders**:
-* **Weather**:
+Cette classe va nous permettre d'orienter le flux d'instructions en reconnaissant le mot clé lié à l'application que l'on souhaite utiliser (calendrier, rappels, etc...). Cela va nous permettre de faire appel à différentes fonctions qui seront liées à l'application. Elle est composé d'une seule méthode `int execute();` qui renvoie 0 si tout s'est bien passé.
+
+* **Calendar**: C'est la fonction calendrier de notre assistant elle comporte les méthodes `void create();` et `void consult();` qui permettent respectivement de créer un évènement ou de le consulter. La méthode `int execute();` vérifie que tout se passe bien et renvoie 0 si c'est le cas.
+* **Reminders**: C'est la fonction qui gère les rappels. Elle agit comme la fonction calendrier
+* **Weather**: C'est la fonction qui donne la météo. Elle agit comme la fonction calendrier à l'exception que l'on ne peut pas créer d'évènement.
 
 **Watchout**
 
+Cette classe est la classe gérant les rappels du quotidien. C'est à elle que l'on va faire appel quand il va s'agir de rappeler des gestes simples comme le fait de ne pas mettre de métaux dans le micro-ondes, ou de rappeler des emplacements d'affaires... Elle prend en entrée une liste prédéfinies de rappels qui se trouveront dans un fichier texte. Cette classe ne comporte qu'une seule méthode `void execute();` qui n'est là que pour exécuter la tâche.
+
 **Timer**
+
+Les rappels du quotidiens étants répétés à intervalle régulière, nous avons besoin d'un timer pour pouvoir les annoncer. Cette méthode aide donc à gérer la diffusion des rappels et ne comporte qu'une seule méthode: `void execute();`
 
 **Output**
 
+Cette classe est l'interface qui gère la sortie. Elle va créer une réponse à l'entrée utilisateur ou va créer la requête permettant la diffusion des rappels du quotidien. Elle n'est composée que d'une seule méthode `void execute();`
+
 **OutputToVoice**
+
+Cette méthode va convertir la sortie texte en sortie vocale, ce qui va permettre à l'enceinte de diffuser un son plutôt qu'un texte. Elle n'est composé que d'une seule fonction `void execute();` et prend en entrée la sortie déjà générée.
 
 ## Roadmap
 
