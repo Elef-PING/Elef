@@ -8,13 +8,13 @@
 * [Description du projet](https://github.com/Flexiboy/Elef#description-du-projet)
 * [Cible du projet](https://github.com/Flexiboy/Elef#cible-du-projet)
 * [Solution apportée](https://github.com/Flexiboy/Elef#solution-apportée)
-* [Diagramme UML / OMT Diagram](https://github.com/Flexiboy/Elef#diagramme-uml-/-omt-diagram)
+* [Diagramme UML / OMT Diagram](https://github.com/Flexiboy/Elef#diagramme-uml--omt-diagram)
 * [Description des fonctions](https://github.com/Flexiboy/Elef#description-des-fonctions)
 * [Roadmap](https://github.com/Flexiboy/Elef#roadmap)
 
 [English Version](https://github.com/Flexiboy/Elef#english-version)
 * [Project description](https://github.com/Flexiboy/Elef#project-description)
-* [Project's target](https://github.com/Flexiboy/Elef#project's-target)
+* [Project's target](https://github.com/Flexiboy/Elef#projects-target)
 * [Solution brought](https://github.com/Flexiboy/Elef#solution-brought)
 * [OMT Diagram](https://github.com/Flexiboy/Elef#omt-diagram-1)
 * [Function description](https://github.com/Flexiboy/Elef#function-description)
@@ -40,7 +40,7 @@ Comme présenté lors de la description du projet, nous allons concevoir un assi
 
 La sortie sera cependant par voie orale car la voix humaine est bien plus simple à synthétiser.
 
-Il faut cependant garder à l'esprit que nous nous adressons à une partie agée de la population n'étant pas forcément à l'aise avec la technologie. Il faudra donc penser à ne pas avoir une approche trop brute avec le patient.Pour cela, nous allons utiliser une voix féminine plutôt douce et nous allons surtout rappeler le fait que c'est une enceinte connectée avant chaque communication.
+Il faut cependant garder à l'esprit que nous nous adressons à une partie agée de la population n'étant pas forcément à l'aise avec la technologie. Il faudra donc penser à ne pas avoir une approche trop brute avec le patient. Pour cela, nous allons utiliser une voix féminine plutôt douce et nous allons surtout rappeler le fait que c'est une enceinte connectée avant chaque communication.
 
 Pour le côté technique, nous allons utiliser une Raspberry PI 3 (4) ainsi que des haut-parleurs. L'alimentation sera gérée sur secteur et l'enveloppe esthétique de l'enceinte sera conçue par nos soins à l'aide de logiciels de modélisation et d'une imprimante 3D.
 
@@ -56,7 +56,7 @@ Cette classe est l'interface tampon entre l'entrée utilisateur est le programme
 
 **Input**
 
-Cette classe est l'interface gérant l'entrée utilisateur. Elle recoit l'entrée utilisateur et la transmet au parseur qui se charge de séparer les mots pour une meilleure lisibilité au niveau de l'algorithme. elle est composée de deux fonctions, `void parse();` et `void execute();` qui ne retournent rien toutes les deux.
+Cette classe est l'interface gérant l'entrée utilisateur. Elle recoit l'entrée utilisateur et la transmet au parseur qui se charge de séparer les mots pour une meilleure lisibilité au niveau de l'algorithme. Elle est composée de deux fonctions, `void parse();` et `void execute();` qui ne retournent rien toutes les deux.
 
 **InputParse**
 
@@ -98,14 +98,67 @@ Cette méthode va convertir la sortie texte en sortie vocale, ce qui va permettr
 
 ## Project description
 
+Elef is a connected assistant that helps people suffering from Alzheimer disease. To do that, we will do a speaker with a smart assistant built-in. This assistant will be limited at first and the user's input will be catched through a console. Our long term goal is to get it working only with human voice recognition. The speaker will comunicate with its user only with speaking.
+
+This assistant will have basic features such as a calendar or reminders. But, because our product is designed for Alzheimer suffering people, we will implement some of the basic things to remember like not putting metal stuff inside the microwave or like a birthday.
+
 ## Project's target
 
+The target of this project will be people suffering from Alzheimer disease as we mentioned earlier. This is a old branch of the population so we will have to keep that in mind when designing the product.
+
 ## Solution brought
+
+As we mentioned earlier, we will build a connected vocal assistant. This assistant will communicate with its user by vocal but also by writing. The user will write an input through a console terminal and the speaker will output a vocal output. The human voice is complicated to recognized and we need a lot of machine learning and artificial intelligence to get it working, so we decided to get the user input only by a console at first. As we mentioned before, our long term goal is to get it working with speaking only. 
+
+The human voice being much easier to sythetise, we decided to get the output by the vocal way.
+
+But we still have to keep in mind that our product has to be designed for old people that are not very confortable with new technologies. We shouldn't have a raw approach with the user. To prevent that, we will use a female voice and we will evocate the type of the object before starting any communication.
 
 ## OMT Diagram
 
 <img src="images/OMT_Diagram.png" width=1000>
 
 ## Function description
+
+**InputBase**
+
+This class is the interface between the Input class and the KeywordRecognition class. This class gets the user input and send it to the input class. This class is only composed by a single method: `int execute();`
+
+**Input**
+
+This class is the interface that process the user input. It gets the user input from the InputBase class and send this input to the parser. This class is composed by two methods `void parse();` and `void execute();`
+
+**InputParse**
+
+This is the class that parses the user input. We need to parse the user input for a better processing with the algorithm. This class gets all the user input and splits every word in order to find some keywords. This class is composed by a single method `vector<string> parse();` that return a vector of string.
+
+**KeywordRecognition**
+
+This class will recognize keywords in the parsed input. This will be helpful to redirect the flow into different applications such as the calendar or the reminders. This class is composed of a single method `int execute();` that returns 0 if everything was right.
+
+**AppKeyword**
+
+This class will redirect the flow into all the different apps linked to the keyword we just detected with the KeywordRecognition class. This will help us to call different functions linked to the applications. This class is composed by a single method `int execute();` that returns 0 if everything was right.
+
+* **Calendar**: This is our calendar app. It is composed of the methods `void create();` and `void consult();` which respectively creates or consults an event. It is also composed of the `int execute();` method that returns 0 if eveything was right.
+* **Reminders**: This is our reminders app, it is about the same as the calendar app
+* **Weather**: This is our weather app, it is about the same as the calendar app except that we cannot create events
+
+
+**Watchout**
+
+This class is about the basic day things that the user can forget, such as the place where he (or she) left his (or her) socks, or like not putting metal stuff in the microwave. This class is getting a list of things in the input. This class only contains a single method `void execute();` that only execute the task we assigned it.
+
+**Timer**
+
+Our watchouts are timed so we needed a timer function. This is the timer we will use to repeat the watchouts. This class only contains a single method `void execute();` that runs the timer.
+
+**Output**
+
+This class is the interface of the output. It will create the output from the user input or from the Watchout class. This class is composed by a single method `void execute();`.
+
+**OutputToVoice**
+
+This class will convert the output to a voice signal. We will use this class to get a voice instead of a text. It gets the generated output from the Output class and is composed of a single method `void execute();` that runs the programm.
 
 ## Roadmap
