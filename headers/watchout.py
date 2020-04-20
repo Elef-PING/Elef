@@ -1,8 +1,9 @@
 #!/bin/python3
 # -*- coding: utf-8 -*-
-@authors @Flexiboy
+# authors @Flexiboy
 
 from random import choice
+import output.py as out
 
 class WatchOut:
 
@@ -18,3 +19,9 @@ class WatchOut:
 
 	def __str__(self):
 		return self.string
+
+	def toStr(self):
+		return self.string
+
+	def output(self):
+		watchout = out.Output(toStr(self), lang)

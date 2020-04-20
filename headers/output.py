@@ -1,6 +1,6 @@
 #!/bin/python3
 # -*- coding: utf-8 -*-
-@authors @Flexiboy
+# authors @Flexiboy
 
 class Output:
 	
