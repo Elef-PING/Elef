@@ -1,2 +1,114 @@
-rendez-vous
-heure
+<keyword kw = "Hello">
+	<lang lang="FR">Bonjour</lang>
+</keyword>
+
+<keyword kw = "Today">
+        <lang lang="FR">Aujourd'hui</lang>
+</keyword>
+
+<keyword kw = "Monday">
+        <lang lang="FR">Lundi</lang>
+</keyword>
+
+<keyword kw = "Tuesday">
+        <lang lang="FR">Mardi</lang>
+</keyword>
+
+<keyword kw = "Wednesday">
+        <lang lang="FR">Mercredi</lang>
+</keyword>
+
+<keyword kw = "Thursday">
+        <lang lang="FR">Jeudi</lang>
+</keyword>
+
+<keyword kw = "Friday">
+        <lang lang="FR">Vendredi</lang>
+</keyword>
+
+<keyword kw = "Saturday">
+        <lang lang="FR">Samedi</lang>
+</keyword>
+
+<keyword kw = "Sunday">
+        <lang lang="FR">Dimanche</lang>
+</keyword>
+
+<keyword kw = "Yesterday">
+        <lang lang="FR">Hier</lang>
+</keyword>
+
+<keyword kw = "Tomorrow">
+        <lang lang="FR">Demain</lang>
+</keyword>
+
+<keyword kw = "Day">
+        <lang lang="FR">Jour</lang>
+</keyword>
+
+<keyword kw = "Days">
+        <lang lang="FR">Jours</lang>
+</keyword>
+
+<keyword kw = "Week">
+        <lang lang="FR">Semaine</lang>
+</keyword>
+
+<keyword kw = "Weeks">
+        <lang lang="FR">Semaines</lang>
+</keyword>
+
+<keyword kw = "Week-end">
+        <lang lang="FR">Week-end</lang>
+</keyword>
+
+<keyword kw = "Afternoon">
+        <lang lang="FR">Après-midi</lang>
+</keyword>
+
+<keyword kw = "Morning">
+        <lang lang="FR">Matin</lang>
+</keyword>
+
+<keyword kw = "Date">
+        <lang lang="FR">Date</lang>
+</keyword>
+
+<keyword kw = "Alarm">
+        <lang lang="FR">Alarme</lang>
+</keyword>
+
+<keyword kw = "Meeting">
+        <lang lang="FR">Rendez-vous</lang>
+</keyword>
+
+<keyword kw = "Rendezvous">
+        <lang lang="FR">Rendez-vous</lang>
+</keyword>
+
+<keyword kw = "Weather">
+        <lang lang="FR">Météo</lang>
+</keyword>
+
+<keyword kw = "Event">
+        <lang lang="FR">Evènement</lang>
+</keyword>
+
+<keyword kw = "Reminder">
+        <lang lang="FR">Rappel</lang>
+</keyword>
+
+<keyword kw = "Calendar">
+        <lang lang="FR">Calendrier</lang>
+</keyword>
+
+
+
+<keyword kw = "Define">
+        <lang lang="FR">Définir</lang>
+</keyword>
+
+<keyword kw = "Create">
+        <lang lang="FR">Créer</lang>
+</keyword>
+
