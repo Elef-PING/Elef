@@ -94,6 +94,8 @@ Cette classe est l'interface qui gère la sortie. Elle va créer une réponse à
 
 Cette méthode va convertir la sortie texte en sortie vocale, ce qui va permettre à l'enceinte de diffuser un son plutôt qu'un texte. Elle n'est composé que d'une seule fonction `void execute();` et prend en entrée la sortie déjà générée.
 
+<img src="images/blank.png" width=1000>
+
 ## English version
 
 *This project is realized as a student project only, through the PING project (Projet d'ingénieur généraliste numérique / Numeric generalist engineering project) in the 3rd year of engineering studies at ESILV*
