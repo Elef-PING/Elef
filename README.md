@@ -44,7 +44,7 @@ Il faut cependant garder à l'esprit que nous nous adressons à une partie agée
 
 Pour le côté technique, nous allons utiliser une Raspberry PI 3 (4) ainsi que des haut-parleurs. L'alimentation sera gérée sur secteur et l'enveloppe esthétique de l'enceinte sera conçue par nos soins à l'aide de logiciels de modélisation et d'une imprimante 3D.
 
-##Visuels
+## Visuels
 
 <img src="images/visual1.png" width=1000>
 
