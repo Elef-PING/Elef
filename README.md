@@ -46,6 +46,10 @@ Pour le côté technique, nous allons utiliser une Raspberry PI 3 (4) ainsi que 
 
 ## Visuels
 
+Nos Logos:
+
+<img src="images/Logos.png" width=1000>
+
 <img src="images/visual1.png" width=1000>
 
 ## Diagramme UML / OMT Diagram
@@ -119,6 +123,10 @@ The human voice being much easier to sythetise, we decided to get the output by 
 But we still have to keep in mind that our product has to be designed for old people that are not very confortable with new technologies. We shouldn't have a raw approach with the user. To prevent that, we will use a female voice and we will evocate the type of the object before starting any communication.
 
 ## Visuals
+
+Our logo:
+
+<img src="images/Logos.png" width=1000>
 
 <img src="images/visual1.png" width=1000>
 
