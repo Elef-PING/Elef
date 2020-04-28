@@ -4,21 +4,21 @@
 
 ## Sommaire / Summary
 
-[Version Française](https://github.com/Flexiboy/Elef#version-française)
-* [Description du projet](https://github.com/Flexiboy/Elef#description-du-projet)
-* [Cible du projet](https://github.com/Flexiboy/Elef#cible-du-projet)
-* [Solution apportée](https://github.com/Flexiboy/Elef#solution-apportée)
-* [Diagramme UML / OMT Diagram](https://github.com/Flexiboy/Elef#diagramme-uml--omt-diagram)
-* [Description des fonctions](https://github.com/Flexiboy/Elef#description-des-fonctions)
-* [Roadmap](https://github.com/Flexiboy/Elef#roadmap)
+[Version Française](https://github.com/Elef-PING/Elef#version-française)
+* [Description du projet](https://github.com/Elef-PING/Elef#description-du-projet)
+* [Cible du projet](https://github.com/Elef-PING/Elef#cible-du-projet)
+* [Solution apportée](https://github.com/Elef-PING/Elef#solution-apportée)
+* [Visuels](https://github.com/Elef-PING/Elef#visuels)
+* [Diagramme UML / OMT Diagram](https://github.com/Elef-PING/Elef#diagramme-uml--omt-diagram)
+* [Description des fonctions](https://github.com/Elef-PING/Elef#description-des-fonctions)
 
-[English Version](https://github.com/Flexiboy/Elef#english-version)
-* [Project description](https://github.com/Flexiboy/Elef#project-description)
-* [Project's target](https://github.com/Flexiboy/Elef#projects-target)
-* [Solution brought](https://github.com/Flexiboy/Elef#solution-brought)
-* [OMT Diagram](https://github.com/Flexiboy/Elef#omt-diagram-1)
-* [Function description](https://github.com/Flexiboy/Elef#function-description)
-* [Roadmap](https://github.com/Flexiboy/Elef#roadmap-1)
+[English Version](https://github.com/Elef-PING/Elef#english-version)
+* [Project description](https://github.com/Elef-PING/Elef#project-description)
+* [Project's target](https://github.com/Elef-PING/Elef#projects-target)
+* [Solution brought](https://github.com/Elef-PING/Elef#solution-brought)
+* [Visuals](https://github.com/Elef-PING/Elef#visuals)
+* [OMT Diagram](https://github.com/Elef-PING/Elef#omt-diagram-1)
+* [Function description](https://github.com/Elef-PING/Elef#function-description)
 
 ## Version Française
 
@@ -43,6 +43,10 @@ La sortie sera cependant par voie orale car la voix humaine est bien plus simple
 Il faut cependant garder à l'esprit que nous nous adressons à une partie agée de la population n'étant pas forcément à l'aise avec la technologie. Il faudra donc penser à ne pas avoir une approche trop brute avec le patient. Pour cela, nous allons utiliser une voix féminine plutôt douce et nous allons surtout rappeler le fait que c'est une enceinte connectée avant chaque communication.
 
 Pour le côté technique, nous allons utiliser une Raspberry PI 3 (4) ainsi que des haut-parleurs. L'alimentation sera gérée sur secteur et l'enveloppe esthétique de l'enceinte sera conçue par nos soins à l'aide de logiciels de modélisation et d'une imprimante 3D.
+
+## Visuels
+
+<img src="images/visual1.png" width=1000>
 
 ## Diagramme UML / OMT Diagram
 
@@ -90,7 +94,7 @@ Cette classe est l'interface qui gère la sortie. Elle va créer une réponse à
 
 Cette méthode va convertir la sortie texte en sortie vocale, ce qui va permettre à l'enceinte de diffuser un son plutôt qu'un texte. Elle n'est composé que d'une seule fonction `void execute();` et prend en entrée la sortie déjà générée.
 
-## Roadmap
+<img src="images/blank.png" width=1000>
 
 ## English version
 
@@ -113,6 +117,10 @@ As we mentioned earlier, we will build a connected vocal assistant. This assista
 The human voice being much easier to sythetise, we decided to get the output by the vocal way.
 
 But we still have to keep in mind that our product has to be designed for old people that are not very confortable with new technologies. We shouldn't have a raw approach with the user. To prevent that, we will use a female voice and we will evocate the type of the object before starting any communication.
+
+## Visuals
+
+<img src="images/visual1.png" width=1000>
 
 ## OMT Diagram
 
@@ -160,5 +168,3 @@ This class is the interface of the output. It will create the output from the us
 **OutputToVoice**
 
 This class will convert the output to a voice signal. We will use this class to get a voice instead of a text. It gets the generated output from the Output class and is composed of a single method `void execute();` that runs the programm.
-
-## Roadmap
