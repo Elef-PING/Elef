@@ -7,12 +7,12 @@ from inputBase import *
 
 class Input(InputBase):
 	
-	def __init__(self, inp.input):
-		self.input = inp.input
-		self.parse = "" 
+	def __init__(self, inp):
+		self.input = inp
+		self.parsed = parse(self.inp)
 
-	def execute():
-		pass
+	def execute(self):
+		return parse(self.inp)
 
-	def parse(self.input):
+	def parse():
 		pass
