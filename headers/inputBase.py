@@ -4,7 +4,7 @@
 
 from abc import ABC, abstractmethod
 
-class Input:
+class InputBase:
 
 	def __init__(self, inp):
 		if isinstance(inp, 'str'):

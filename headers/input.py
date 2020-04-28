@@ -3,16 +3,16 @@
 # authors @Flexiboy
 
 from abc import ABC, abstractmethod
-import .input as inp
+from inputBase import *
 
-class InputParse:
+class Input(InputBase):
 	
-	def __init__(self, inp.input):
-		self.input = inp.input
-		self.parse = "" 
+	def __init__(self, inp):
+		self.input = inp
+		self.parsed = parse(self.inp)
 
-	def execute():
-		pass
+	def execute(self):
+		return parse(self.inp)
 
-	def parse(self.input):
+	def parse():
 		pass
