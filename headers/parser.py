@@ -13,11 +13,21 @@ class Parser(Input):
 	def __init__(self, inp):
 		self.input = inp
 		self.parsed = parser(self.inp)
+		self.keywords = []
 		
 		tmp = []
-		with open(PATH, "r") as inp:
-			for i in inp:
-				i.find("kw")
+		with open(PATH, "r") as keywordsfile:
+			for i in keywordsfile:
+				index1, index2 = i.find("kw"), i.find("lang")
+				if index2 == -1:
+					tmp.append(i.split("\"")[1])
+				elif index1 == -1:
+					if i[12:13] == LANG:
+						tmp.append(i.split(">")[1].split("<")[0])
+						self.keywords.append(tmp)
+						tmp = []
+				elif index1 == -1 && index2 == -1:
+					print("file error")
 
 
 	def evaluate(self):
