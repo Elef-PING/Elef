@@ -3,7 +3,7 @@
 # authors @Flexiboy
 # authors @LeoDPlouc
 
-import output.py as out
+import output as out 
 import datetime as dt
 
 class Date:
@@ -11,3 +11,6 @@ class Date:
         self.date = datetime
         self.title = title
         self.message = message
+
+    def __str__(self):
+        return "{0} : {1}, {2}".format(str(self.date), self.title, self.message)
