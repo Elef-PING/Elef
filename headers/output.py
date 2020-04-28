@@ -4,6 +4,6 @@
 
 class Output:
 	
-	def __init__(string, lang):
+	def __init__(self, string, lang):
 		self.string = string
 
