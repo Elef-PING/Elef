@@ -3,9 +3,9 @@
 # authors @Flexiboy
 
 from abc import ABC, abstractmethod
-import .input as inp
+from inputBase import *
 
-class InputParse:
+class Input(InputBase):
 	
 	def __init__(self, inp.input):
 		self.input = inp.input
