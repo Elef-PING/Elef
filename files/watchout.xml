@@ -1,1 +1,47 @@
-watchout
+<watchout kw = "Metal">
+        <lang lang="FR">Attention, il ne faut pas mettre de métal dans le micro ondes</lang>
+</watchout>
+
+<watchout kw = "Time to eat">
+        <lang lang="FR">Il est l'heure de manger, bon appétit</lang>
+</watchout>
+
+<watchout kw = "Time to sleep">
+        <lang lang="FR">Il commence à se faire tard, pense à aller te coucher</lang>
+</watchout>
+
+<watchout kw = "Take a siesta">
+        <lang lang="FR">C'est l'heure de faire la sieste, tu vas pouvoir te reposer</lang>
+</watchout>
+
+<watchout kw = "Take medication">
+        <lang lang="FR">N'oublie pas de prendre tes médicaments</lang>
+</watchout>
+
+<watchout kw = "Meeting">
+        <lang lang="FR">Tu as un rendez-vous de planifier</lang>
+</watchout>
+
+<watchout kw = "Wash your hands">
+        <lang lang="FR">N'oublie pas à te laver les mains</lang>
+</watchout>
+
+<watchout kw = "Take a shower">
+        <lang lang="FR">Pense à te doucher</lang>
+</watchout>
+
+<watchout kw = "Dress">
+        <lang lang="FR">Une fois la douche prise, tu peux t'habiller. N'oublie pas de prendre des affaires propres</lang>
+</watchout>
+
+<watchout kw = "Turn off the light">
+        <lang lang="FR">N'oublie pas d'éteindre la lumière en sortant de la pièce</lang>
+</watchout>
+
+<watchout kw = "Birthday">
+        <lang lang="FR">Aujourd'hui c'est l'anniversaire de </lang>
+</watchout>
+
+<watchout kw = "Brush your teeth">
+	<lang lang="FR">Il faut se brosser les dents</lang>
+</watchout>
