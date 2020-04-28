@@ -4,15 +4,15 @@
 # authors @LeoDPlouc
 
 import output as out 
-from datetime import date
+from datetime import datetime
 import pickle as pck
 from io import FileIO as file
 
 CALENDAR_PATH = "../files/calender.cal"
 
 class Date:
-    def __init__(self, date = date, title = str, message = str):
-        self.date = datetime
+    def __init__(self, date = datetime, title = str, message = str):
+        self.date = date
         self.title = title
         self.message = message
 
@@ -20,7 +20,16 @@ class Date:
         return "{0} : {1}, {2}".format(str(self.date), self.title, self.message)
 
 def save(dateObject = Date):
-    f = file(CALENDAR_PATH, "a")
-    pickler = pck.Pickler(f)
-    pickler.dump(dateObject)
-    f.close()
+    l = list(load())
+    l.append(dateObject)
+    f = file(CALENDAR_PATH, "w")
+    pck.dump(l, f)
+
+def load():
+    f, r = None, None
+    try:
+        f = file(CALENDAR_PATH, "r")
+        r = pck.load(f)
+    except:
+        r = list()
+    return r
