@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 # authors @Flexiboy
 
+from abc import ABC, abstractmethod
+
 class Input:
 
 	def __init__(self, inp):
@@ -35,4 +37,4 @@ class Input:
 			return 'not an array'
 
 	def execute():
-		
+		pass		
