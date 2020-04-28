@@ -2,8 +2,30 @@
 # -*- coding: utf-8 -*-
 # authors @Flexiboy
 
-class Parser:
-<<<<<<< HEAD
-=======
+from abc import ABC, abstractmethod
+from input import *
 
->>>>>>> a1c57bca5f2da29b18a586d52d650a7ab460c6b3
+PATH = ../files/keywords.xml
+LANG = "FR"
+
+class Parser(Input):
+
+	def __init__(self, inp):
+		self.input = inp
+		self.parsed = parser(self.inp)
+		
+		tmp = []
+		with open(PATH, "r") as inp:
+			for i in inp:
+				i.find("kw")
+
+
+	def evaluate(self):
+		if parser(self) is not None:
+			return 0
+
+	def parser(self):
+		parsed = None
+		if isinstance(self, str):
+			
+
