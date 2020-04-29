@@ -8,7 +8,7 @@ from datetime import datetime
 import pickle as pck
 from io import FileIO as file
 
-CALENDAR_PATH = "../files/calender.cal"
+CALENDAR_PATH = "../files/calendar.cal"
 
 class Date:
     def __init__(self, date = datetime, title = str, message = str):
