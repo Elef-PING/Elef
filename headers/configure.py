@@ -1,6 +1,7 @@
 #!/bin/python3
 # -*- coding: utf-8 -*-
 # authors @Flexiboy
+# authors @LeoDPlouc
 
 import json
 from io import FileIO as file
