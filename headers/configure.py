@@ -34,3 +34,8 @@ def setName(name = str):
 def getLang():
     cf = getConfigure()
     return cf[LANG_KEY]
+
+def setLang(lang = str):
+    cf = getConfigure()
+    cf[LANG_KEY] = lang
+    setConfigure(cf)
