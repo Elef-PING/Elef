@@ -27,4 +27,6 @@ def getName():
     return cf[NAME_KEY]
 
 def setName(name = str):
-    
+    cf = getConfigure()
+    cf[NAME_KEY] = name
+    setConfigure(cf)
