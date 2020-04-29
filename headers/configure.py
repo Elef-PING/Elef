@@ -14,6 +14,11 @@ def getConfigure():
         cf = json.load(f)
     except:
         cf = {"name": None, "lang": None}
+    return cf
+
+def setConfigure(configure = dict):
+    f = file(CONFIGURE_PATH, "w")
+    json.dump(configure, f)
 
 def getName():
 
