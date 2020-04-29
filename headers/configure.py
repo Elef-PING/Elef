@@ -30,3 +30,7 @@ def setName(name = str):
     cf = getConfigure()
     cf[NAME_KEY] = name
     setConfigure(cf)
+
+def getLang():
+    cf = getConfigure()
+    return cf[LANG_KEY]
