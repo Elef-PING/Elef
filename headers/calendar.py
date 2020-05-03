@@ -19,11 +19,11 @@ class Date:
     def __str__(self):
         return "{0} : {1}, {2}".format(str(self.date), self.title, self.message)
 
-def save(dateObject = Date):
-    l = list(load())
-    l.append(dateObject)
-    f = file(CALENDAR_PATH, "w")
-    pck.dump(l, f)
+    def save(self):
+        l = list(load())
+        l.append(self)
+        f = file(CALENDAR_PATH, "w")
+        pck.dump(l, f)
 
 def load():
     f, r = None, None
