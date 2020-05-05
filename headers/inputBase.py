@@ -24,7 +24,7 @@ class InputBase:
 	def __setitem__(self, index, value):
 		if isinstance(self.inp, 'list'):
 			for i in range(len(self.inp)):
-				if i = index:
+				if i == index:
 					self.inp[i] = str(value)
 
 	def __getitem__(self, index):
@@ -36,7 +36,7 @@ class InputBase:
 		else:
 			return 'not an array'
 
-	def execute():
+	def execute(self):
 		pass		
 
 	def parse():
