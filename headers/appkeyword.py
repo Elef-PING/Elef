@@ -2,9 +2,8 @@
 # -*- coding: utf-8 -*-
 # authors @Flexiboy
 
-class AppKeyword:
-<<<<<<< HEAD
-	
-=======
-
->>>>>>> a1c57bca5f2da29b18a586d52d650a7ab460c6b3
+class appKeyword():
+    def __init__(self, app : str, func : str, args : list):
+        self.app = app
+        self.func = func
+        self.args = args
