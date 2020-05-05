@@ -14,5 +14,5 @@ class Input(InputBase):
 	def execute(self):
 		return parse(self.inp)
 
-	def parse():
+	def parse(self, inp):
 		pass

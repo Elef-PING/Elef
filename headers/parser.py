@@ -34,7 +34,7 @@ class Parser(Input):
 		if parser(self) is not None:
 			return 0
 
-	def parser(self):
+	def parser(self, inp):
 		parsed = None
 		if isinstance(self, str):
 			
