@@ -39,5 +39,5 @@ class InputBase:
 	def execute(self):
 		pass		
 
-	def parse():
+	def parse(self, inp):
 		pass

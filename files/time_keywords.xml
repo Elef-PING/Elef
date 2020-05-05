@@ -1,0 +1,179 @@
+<keyword kw = "Hello">
+	<lang lang="FR">Bonjour</lang>
+</keyword>
+
+<keyword kw = "Today">
+        <lang lang="FR">Aujourd'hui</lang>
+</keyword>
+
+<keyword kw = "Monday">
+        <lang lang="FR">Lundi</lang>
+</keyword>
+
+<keyword kw = "Tuesday">
+        <lang lang="FR">Mardi</lang>
+</keyword>
+
+<keyword kw = "Wednesday">
+        <lang lang="FR">Mercredi</lang>
+</keyword>
+
+<keyword kw = "Thursday">
+        <lang lang="FR">Jeudi</lang>
+</keyword>
+
+<keyword kw = "Friday">
+        <lang lang="FR">Vendredi</lang>
+</keyword>
+
+<keyword kw = "Saturday">
+        <lang lang="FR">Samedi</lang>
+</keyword>
+
+<keyword kw = "Sunday">
+        <lang lang="FR">Dimanche</lang>
+</keyword>
+
+<keyword kw = "Yesterday">
+        <lang lang="FR">Hier</lang>
+</keyword>
+
+<keyword kw = "Tomorrow">
+        <lang lang="FR">Demain</lang>
+</keyword>
+
+<keyword kw = "Day">
+        <lang lang="FR">Jour</lang>
+</keyword>
+
+<keyword kw = "Days">
+        <lang lang="FR">Jours</lang>
+</keyword>
+
+<keyword kw = "Week">
+        <lang lang="FR">Semaine</lang>
+</keyword>
+
+<keyword kw = "Weeks">
+        <lang lang="FR">Semaines</lang>
+</keyword>
+
+<keyword kw = "Week-end">
+        <lang lang="FR">Week-end</lang>
+</keyword>
+
+<keyword kw = "Afternoon">
+        <lang lang="FR">Après-midi</lang>
+</keyword>
+
+<keyword kw = "Morning">
+        <lang lang="FR">Matin</lang>
+</keyword>
+
+<keyword kw = "1 am">
+	<lang lang="FR">Une heure du matin</lang>
+</keyword>
+
+<keyword kw = "2 am">
+        <lang lang="FR">Deux heures du matin</lang>
+</keyword>
+
+<keyword kw = "3 am">
+        <lang lang="FR">Trois heures du matin</lang>
+</keyword>
+
+<keyword kw = "4 am">
+	<lang lang="FR">Quatre heures du matin</lang>
+</keyword>
+
+<keyword kw = "5 am">
+        <lang lang="FR">Cinq heures du matin</lang>
+</keyword>
+
+<keyword kw = "6 am">
+        <lang lang="FR">Six heures du matin</lang>
+</keyword>
+
+<keyword kw = "7 am">
+        <lang lang="FR">Sept heures du matin</lang>
+</keyword>
+
+<keyword kw = "8 am">
+        <lang lang="FR">Huit heures du matin</lang>
+</keyword>
+
+<keyword kw = "9 am">
+        <lang lang="FR">Neuf heures</lang>
+</keyword>
+
+<keyword kw = "10 am">
+        <lang lang="FR">Dix heures</lang>
+</keyword>
+
+<keyword kw = "11 am">
+        <lang lang="FR">Onze heures</lang>
+</keyword>
+
+<keyword kw = "Midday">
+        <lang lang="FR">Midi</lang>
+</keyword>
+
+<keyword kw = "1 pm">
+        <lang lang="FR">Treize heures</lang>
+</keyword>
+
+<keyword kw = "2 pm">
+	<lang lang="FR">Quatorze heures</lang>
+</keyword>
+
+<keyword kw = "3 pm">
+        <lang lang="FR">Quinze heures</lang>
+</keyword>
+
+<keyword kw = "4 pm">
+        <lang lang="FR">Seize heures</lang>
+</keyword>
+
+<keyword kw = "5 pm">
+        <lang lang="FR">Dix-sept heures</lang>
+</keyword>
+
+<keyword kw = "6 pm">
+        <lang lang="FR">Dix-huit heures</lang>
+</keyword>
+
+<keyword kw = "7 pm">
+        <lang lang="FR">Dix-neuf heures</lang>
+</keyword>
+
+<keyword kw = "8 pm">
+        <lang lang="FR">Vingt heures</lang>
+</keyword>
+
+<keyword kw = "9 pm">
+        <lang lang="FR">Vingt et une heures</lang>
+</keyword>
+
+<keyword kw = "10 pm">
+        <lang lang="FR">Vingt-deux heures</lang>
+</keyword>
+
+<keyword kw = "11 pm">
+        <lang lang="FR">Vingt-trois heures</lang>
+</keyword>
+
+<keyword kw = "Midnight">
+        <lang lang="FR">Minuit</lang>
+</keyword>
+
+<keyword kw = "Quarter past">
+        <lang lang="FR">Et quart</lang>
+</keyword>
+
+<keyword kw = "Quarter to">
+        <lang lang="FR">Moins le quart</lang>
+</keyword>
+
+<keyword kw = "Half">
+        <lang lang="FR">Et demi</lang>
+</keyword>
