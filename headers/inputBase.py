@@ -10,7 +10,7 @@ class InputBase:
 		if isinstance(inp, 'str'):
 			self.inp = inp
 		elif isinstance(inp, 'list'):
-			self.inp = inp
+			self.parsed = inp
 
 	def __str__(self):
 		if isinstance(self.inp, 'str'):
@@ -38,3 +38,6 @@ class InputBase:
 
 	def execute():
 		pass		
+
+	def parse():
+		pass
